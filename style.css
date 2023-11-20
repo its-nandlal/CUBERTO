@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Averta CY W10';
+    box-sizing: border-box;
+    color: #000;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+::selection{
+    color: #fff;
+    background-color: #000;
+}
+
+
+#main{
+    width: 100%;
+    /* background-color: #fff; */
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+}
+
+#nav{
+    width: 100%;
+    padding: 19px 41px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav img{
+    width: 100px;
+}
+
+#nav a:first-child{
+    margin-right: 30px;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 1.4vw;
+    margin-right: 20px;
+}
+
+#homemain{
+    width: 100%;
+    padding: 13vw 13vw;
+    /* background-color: red; */
+}
+
+
+#right{
+    display: flex;
+    align-items: center;
+}
+
+#icon{
+    cursor: pointer;
+}
+
+#icon hr{
+    width: 23px;
+    height: 2px;
+    background-color: #000;
+    border: none;
+    outline: none;
+}
+
+#icon hr:first-child{
+    margin-top: 5.3px;
+    margin-bottom: 4px;
+}
+
+
+
+#homemain h3{
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+#hadding{
+    display: flex;
+    gap: 20px;
+}
+
+#hadding h1{
+    font-weight: 900;
+    font-size: 6.5vw;
+    color: transparent;
+    -webkit-text-stroke: 0.8px #000;
+    line-height: 1;
+    cursor: pointer;
+}
+
+#hadding h1:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+#homelast{
+    padding: 7vw 13vw;
+}
+
+#homelast p{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+#featured{
+    padding: 0 13vw;
+    padding-top: 15vw;
+    padding-bottom: 7vw;
+}
+
+
+.fheading h1{
+    line-height: 85%;
+    font-size: 4.4vw;
+    font-weight: 400;
+}
+
+.fheading h1:last-child{
+    color: transparent;
+    -webkit-text-stroke: 0.8px #000;
+    font-weight: 400;
+}
+
+#fsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    /* border: 1px solid; */
+    margin-top: 5vw;
+}
+
+#fleft{
+    overflow: hidden;
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid red; */
+}
+
+.flelem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellow; */
+}
+
+.flelem h3{
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 2;
+    opacity: 0.9;
+}
+
+.flelem h1{
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 2.6vw;
+}
+
+.flelem h4{
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 1.2vw;
+    color: #000;
+    opacity: 0.6;
+    margin-top: 15px;
+}
+
+#fright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    height: 80vh;
+    /* border: 1px solid rgb(55, 255, 0); */
+}
+
+#imgsec{
+    width: 100%;
+    height: 100%;
+}
+
+#imgsec img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btndiv{
+    padding: 5vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btndiv button{
+    padding: 17px 30px;
+    font-size: 1vw;
+    font-weight: 900;
+    color: #000000dc;
+    background: #fff;
+    border: 1.8px solid #d7d7d7;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btndiv button:hover{
+    mix-blend-mode: difference;
+}
+
+#dev{
+    width: 100%;
+    padding: 5vw 13vw;
+}
+
+#dev h1{
+    font-size: 4vw;
+    font-weight: 400;
+    line-height: 1;
+}
+
+#dev p{
+    padding: 3vw 0;
+    font-size: 1.5vw;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    width: 55%;
+}
+
+#slides{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 7vw;
+}
+
+.slide{
+    width: 30%;
+}
+
+.slide .img{
+    width: 100%;
+    overflow: hidden;
+    height: 220px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+
+.slide .img img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.slide .tag{
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #efefef;
+    width: fit-content;
+    border-radius: 100px;
+    font-size: 1.5vw;
+    font-weight: 500;
+    opacity: .8;
+}
+
+.slide h3{
+    font-size: 1.50vw;
+    font-weight: 500;
+    opacity: .8;
+    letter-spacing: -0.5px;
+}
+
